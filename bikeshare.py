@@ -227,7 +227,7 @@ def view_data(df):
         print(df[start_index: end_index])
         start_index = end_index
         end_index += 5
-        answer = input("Do you wish to see the next first 5 rows of the raw data? (yes or no) : ").lower().strip()
+        answer = input("Do you wish to see the next first 10 rows of the raw data? (yes or no) : ").lower().strip()
 
 
 def main():
