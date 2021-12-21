@@ -220,7 +220,7 @@ def view_data(df):
 
     #index position holder for viewing the data set rows in step of 5's
     start_index = 0
-    end_index = 5
+    end_index = 10
 
     # while loop to keep requesting user consent to see more of the raw data
     while answer == "yes" and end_index <= df.size:
