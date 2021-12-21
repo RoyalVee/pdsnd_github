@@ -14,6 +14,11 @@
 - new_york_city.csv
 - washington.csv
 
+### Usage
+    To analyse a city data, you will be required to enter the city name.
+    If you wish to filter the dataset based on month and week day you can specify as required.
+    The python script will process the data based on your specifications and return the result of the analysis.
+
 ### Credits
     Book Title: Python Data Science Handbook
     Author: Jake VanderPlas
