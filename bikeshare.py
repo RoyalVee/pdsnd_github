@@ -51,7 +51,7 @@ def get_filters():
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
-
+    Filter data set to user specifcation.
     Args:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
@@ -75,7 +75,7 @@ def load_data(city, month, day):
     df["End Day"] = df["End Time"].dt.day_name()
     df["End Hour"] = df["End Time"].dt.hour
 
-    #filtering the dataset based on specified entry
+    #filtering the dataset based on specified entry. 
     if month != "all":      # filter data by month given
         month_list = ["january", "february", "march", "april", "may", "june", "july", "august", "september",
                   "october", "november", "december"]
